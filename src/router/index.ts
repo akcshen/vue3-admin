@@ -88,6 +88,27 @@ export const constantRoutes: RouteRecordRaw[] = [
     ]
   },
   {
+    path: "/common",
+    component: Layout,
+    redirect: "/common/commonly-used",
+    name: "common",
+    meta: {
+      title: "常用方法",
+      svgIcon: "dashboard",
+      alwaysShow: true
+    },
+    children: [
+      {
+        path: "commonly-used",
+        component: () => import("@/views/Commonmethod/commonlyused.vue"),
+        name: "commonlyUsed",
+        meta: {
+          title: "commonly used"
+        }
+      }
+    ]
+  },
+  {
     path: "/table",
     component: Layout,
     redirect: "/table/element-plus",
