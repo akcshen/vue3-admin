@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-1b428a4d.js";import{m as r,u as s,aw as a,ak as n}from"./runtime-core.esm-bundler-1857aef3.js";const o={class:"app-container"};const t=e({},[["render",function(e,t){const c=a("el-card");return n(),r("div",o,[s(c,{header:"js字符串长度检测"})])}]]);export{t as default};
